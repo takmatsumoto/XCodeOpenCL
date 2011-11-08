@@ -30,6 +30,8 @@
 		0ABDD86A146772EA002C7929 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0ABDD86C146772EA002C7929 /* OpenCLTest2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCLTest2.1; sourceTree = "<group>"; };
 		0ABDD8731467735D002C7929 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		0ABDD8901467CCE6002C7929 /* HeadFileDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadFileDef.h; sourceTree = "<group>"; };
+		0ABDD8911467CD55002C7929 /* shader.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = shader.cl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 			children = (
 				0ABDD86A146772EA002C7929 /* main.cpp */,
 				0ABDD86C146772EA002C7929 /* OpenCLTest2.1 */,
+				0ABDD8901467CCE6002C7929 /* HeadFileDef.h */,
+				0ABDD8911467CD55002C7929 /* shader.cl */,
 			);
 			path = OpenCLTest2;
 			sourceTree = "<group>";
@@ -205,6 +209,7 @@
 				0ABDD872146772EA002C7929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
